@@ -21,6 +21,17 @@ public class Resume {
     @Field
     String resumeText;
     
+    @Field
+    String description;
+    
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public static Resume getResume() {
 	return new Resume();
     }
