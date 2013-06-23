@@ -84,7 +84,8 @@ public class ResumeParser {
 	for (Iterator<String> iterator = skillList.iterator(); iterator
 		.hasNext();) {
 	    String s = iterator.next();
-	    if (Pattern.compile(Pattern.quote(line), Pattern.CASE_INSENSITIVE).matcher(s).find()) {
+	    if (Pattern.compile(Pattern.quote(line), Pattern.CASE_INSENSITIVE)
+		    .matcher(s).find()) {
 		System.out.println("Found " + s + " in line no. " + lineNo);
 	    }
 	}

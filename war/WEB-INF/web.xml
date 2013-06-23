@@ -12,7 +12,7 @@
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>ajaxServlet</servlet-name>
-		<servlet-class>org.dinesh.web.ResumeSearch.ajaxServlet</servlet-class>
+		<servlet-class>org.dinesh.web.ajaxServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ajaxServlet</servlet-name>
